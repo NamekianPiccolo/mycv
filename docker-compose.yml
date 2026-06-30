@@ -1,9 +1,11 @@
-version: '3.8'
-
 services:
   cv-site:
     build: .
     container_name: cv_portfolio
     ports:
-      - "8080:80" # Map port 8080 VPS ke port 80 kontainer (bisa diganti ke "80:80" jika port 80 kosong)
+      - "80:80"
+      - "443:443"
+    volumes:
+      # Memetakan folder SSL dari VPS ke dalam kontainer Docker
+      - /etc/letsencrypt:/etc/letsencrypt
     restart: always
