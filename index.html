@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andre Saputra | Software Engineer & Web Developer</title>
+    
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="CV & Portofolio Interaktif Andre Saputra. Seorang Software Engineer dan Web Developer yang berfokus pada web performa tinggi, visual premium, dan arsitektur kode bersih.">
+    <meta name="keywords" content="Andre Saputra, NamekianPiccolo, Web Developer, Software Engineer, Portofolio CV, PHP Developer, JavaScript Developer">
+    <meta name="author" content="Andre Saputra">
+    
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="Andre Saputra | Software Engineer & Web Developer">
+    <meta property="og:description" content="CV & Portofolio Interaktif Andre Saputra. Pengembang web dengan spesialisasi PHP, JavaScript, dan UI minimalis premium.">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://github.com/NamekianPiccolo">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/117516058?v=4">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Andre.S</a>
+            <div class="nav-right">
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="#work" class="nav-link">Work</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="theme-toggle" id="themeToggle" aria-label="Ubah Tema Gelap/Terang">
+                    <!-- Moon Icon -->
+                    <svg class="moon-icon" viewBox="0 0 24 24">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <!-- Sun Icon -->
+                    <svg class="sun-icon" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="container hero-content">
+            <div class="hero-subtitle">Software Engineer & Web Developer</div>
+            <h1 class="hero-title" id="heroName">
+                <span>Andre</span>
+                <span>Saputra</span>
+            </h1>
+            <p class="hero-description">
+                Saya membangun aplikasi web yang responsif, berkinerja tinggi, dan berestetika modern. Berfokus pada arsitektur bersih serta pengalaman pengguna yang interaktif.
+            </p>
+            
+            <div class="stats-row">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="3">0</span>
+                    <span class="stat-label">Tahun Coding</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="24">0</span>
+                    <span class="stat-label">Repositori GitHub</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="10">0</span>
+                    <span class="stat-label">Proyek Selesai</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="5">0</span>
+                    <span class="stat-label">Teknologi Utama</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section (Bento Grid) -->
+    <section class="section" id="work">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <span class="section-label">Selected Projects</span>
+                <h2 class="section-title">Hasil Karya Terbaik</h2>
+            </div>
+            
+            <div class="bento-grid">
+                <!-- Project 1: 64mart (JavaScript) -->
+                <div class="bento-card col-8 reveal-on-scroll">
+                    <div class="card-header">
+                        <span class="card-tag">E-Commerce & Management</span>
+                        <a href="https://github.com/NamekianPiccolo/64mart" target="_blank" aria-label="Lihat repositori 64mart">
+                            <svg class="card-arrow" viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                        </a>
+                    </div>
+                    <div>
+                        <h3 class="card-title">64mart</h3>
+                        <p class="card-desc">Sistem manajemen minimarket interaktif dengan dashboard analitis penjualan barang, pencatatan transaksi kasir, serta visualisasi inventori real-time.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="card-lang"><span class="lang-dot" style="background-color: #f1e05a;"></span>JavaScript</span>
+                        <span class="card-lang"><span class="lang-dot" style="background-color: #563d7c;"></span>Bootstrap CSS</span>
+                    </div>
+                </div>
+
+                <!-- Project 2: Laundry App Native (PHP) -->
+                <div class="bento-card col-4 reveal-on-scroll">
+                    <div class="card-header">
+                        <span class="card-tag">Native PHP Application</span>
+                        <a href="https://github.com/NamekianPiccolo/aplikasi-pengelolaan-laundry-master" target="_blank" aria-label="Lihat repositori Laundry Master">
+                            <svg class="card-arrow" viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                        </a>
+                    </div>
+                    <div>
+                        <h3 class="card-title">Laundry Admin Master</h3>
+                        <p class="card-desc">Aplikasi pengelolaan administrasi laundry berbasis PHP Native. Memiliki fitur pelacakan status pakaian, kalkulasi tagihan otomatis, dan cetak invoice.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="card-lang"><span class="lang-dot" style="background-color: #4F5D95;"></span>PHP</span>
+                        <span class="card-lang"><span class="lang-dot" style="background-color: #563d7c;"></span>CSS Grid</span>
+                    </div>
+                </div>
+
+                <!-- Project 3: coffebroww (HTML/CSS) -->
+                <div class="bento-card col-4 reveal-on-scroll">
+                    <div class="card-header">
+                        <span class="card-tag">Creative Landing Page</span>
+                        <a href="https://github.com/NamekianPiccolo/coffebroww" target="_blank" aria-label="Lihat repositori coffebroww">
+                            <svg class="card-arrow" viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                        </a>
+                    </div>
+                    <div>
+                        <h3 class="card-title">Coffebroww</h3>
+                        <p class="card-desc">Situs web kedai kopi estetik dan modern yang menyajikan daftar menu, testimoni pelanggan, dan formulir pemesanan interaktif.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="card-lang"><span class="lang-dot" style="background-color: #e34c26;"></span>HTML5</span>
+                        <span class="card-lang"><span class="lang-dot" style="background-color: #563d7c;"></span>CSS Flexbox</span>
+                    </div>
+                </div>
+
+                <!-- Project 4: apakek (PHP Utilities) -->
+                <div class="bento-card col-4 reveal-on-scroll">
+                    <div class="card-header">
+                        <span class="card-tag">Backend Utilities</span>
+                        <a href="https://github.com/NamekianPiccolo/apakek" target="_blank" aria-label="Lihat repositori apakek">
+                            <svg class="card-arrow" viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                        </a>
+                    </div>
+                    <div>
+                        <h3 class="card-title">Apakek Library</h3>
+                        <p class="card-desc">Kumpulan pustaka backend helper PHP untuk mempermudah routing, pemrosesan query database, serta validasi request input pengguna.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="card-lang"><span class="lang-dot" style="background-color: #4F5D95;"></span>PHP Native</span>
+                    </div>
+                </div>
+
+                <!-- Project 5: namekian landing (General) -->
+                <div class="bento-card col-4 reveal-on-scroll">
+                    <div class="card-header">
+                        <span class="card-tag">Personal Fun Project</span>
+                        <a href="https://github.com/NamekianPiccolo/namekian" target="_blank" aria-label="Lihat repositori namekian">
+                            <svg class="card-arrow" viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                        </a>
+                    </div>
+                    <div>
+                        <h3 class="card-title">Namekian Profile</h3>
+                        <p class="card-desc">Proyek eksperimental berbasis markdown dan web interaktif bertema anime untuk menyajikan profil personal dengan gaya unik.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="card-lang"><span class="lang-dot" style="background-color: #89e051;"></span>Shell/Markdown</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <span class="section-label">What I Do</span>
+                <h2 class="section-title">Layanan & Keahlian</h2>
+            </div>
+            
+            <div class="service-list">
+                <div class="service-item reveal-on-scroll">
+                    <div class="service-num">01</div>
+                    <div>
+                        <h3 class="service-name">Frontend Web Development</h3>
+                        <p class="service-desc">
+                            Membangun antarmuka yang sangat responsif, fluid, dan kaya akan transisi modern. Terbiasa menggunakan Vanilla JavaScript, HTML5 semantik, CSS Grid/Flexbox, dan integrasi API eksternal.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="service-item reveal-on-scroll">
+                    <div class="service-num">02</div>
+                    <div>
+                        <h3 class="service-name">Backend Development (PHP)</h3>
+                        <p class="service-desc">
+                            Merancang database relasional yang optimal, membuat sistem login aman, mengelola sesi otentikasi kasir/admin, serta mengembangkan alur logika bisnis backend (MVC) menggunakan PHP.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="service-item reveal-on-scroll">
+                    <div class="service-num">03</div>
+                    <div>
+                        <h3 class="service-name">Interactive Micro-interactions</h3>
+                        <p class="service-desc">
+                            Menambahkan efek transisi berkecepatan ganda (parallax), optimasi efek scrolling, dark-mode dinamis, dan animasi stat numerik untuk menghidupkan interaksi pengguna dengan website.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Wall Section -->
+    <section class="section">
+        <div class="container reveal-on-scroll">
+            <div class="quote-container">
+                <div class="quote-icon">“</div>
+                <p class="quote-text">
+                    Keindahan sebuah kode program tidak hanya diukur dari kerapian sintaksisnya, melainkan dari kenyamanan serta kemudahan yang dirasakan oleh pengguna saat berinteraksi dengannya.
+                </p>
+                <div class="quote-author">Andre Saputra</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <span class="section-label">Biography</span>
+                <h2 class="section-title">Tentang Saya</h2>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-left reveal-on-scroll">
+                    <h3>Halo, Saya Andre.</h3>
+                    <p>
+                        Saya adalah seorang Web Developer asal Indonesia yang bersemangat dalam menggabungkan fungsionalitas backend dan seni visual frontend. Melalui akun GitHub @NamekianPiccolo, saya aktif bereksperimen dengan berbagai library dan membangun aplikasi web yang bermanfaat untuk kehidupan sehari-hari, seperti sistem pengelolaan laundry dan marketplace sederhana.
+                    </p>
+                    <p>
+                        Saya percaya bahwa sebuah website harus cepat diakses, mudah dibaca (readability), dan memiliki sentuhan estetika premium tanpa mengurangi performa.
+                    </p>
+                    
+                    <div class="about-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Nama Lengkap</span>
+                            <span class="detail-value">Andre Saputra</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Status</span>
+                            <span class="detail-value">Tersedia untuk Freelance & Kolaborasi</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Basis Kerja</span>
+                            <span class="detail-value">Indonesia (Remote)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-right reveal-on-scroll">
+                    <div class="profile-initials">AS</div>
+                    <div class="about-links">
+                        <a href="https://github.com/NamekianPiccolo" target="_blank" class="about-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            GitHub
+                        </a>
+                        <a href="https://www.instagram.com/namekian05?igsh=d2Q3bXo0YXU1a2V2&utm_source=ig_contact_invite" target="_blank" class="about-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Section -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    
+                  
+                </div>
+                
+                
+            </div>
+            
+            <div class="footer-bottom">
+                <span class="copyright">© 2026 Andre Saputra. .</span>
+                <div class="social-links">
+                    <a href="https://github.com/NamekianPiccolo" target="_blank" class="social-link">GitHub</a>
+                    <a href="https://www.instagram.com/namekian05?igsh=d2Q3bXo0YXU1a2V2&utm_source=ig_contact_invite" target="_blank" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
